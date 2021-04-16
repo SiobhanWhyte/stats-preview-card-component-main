@@ -1,8 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
 body {
+    text-align: center;
+    color: white;
+    background-color: hsl(233, 47%, 7%);
+
+}
+
+
+h1 {
     font-family: 'Inter', sans-serif;
-font-family: 'Lexend Deca', sans-serif;
+    font-size: 700;
+}
+
+h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 400;
+    color:hsla(0, 0%, 100%, 0.75);
+}
+
+.card {
+background-color: hsl(244, 38%, 16%);
+}
+
+.stats {
+    color: hsla(0, 0%, 100%, 0.6);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-rows: repeat(1, 100px);
+    column-gap: 15px;
+    row-gap: 1em;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+
+
 }
 
 .attribution { font-size: 11px; text-align: center; }
