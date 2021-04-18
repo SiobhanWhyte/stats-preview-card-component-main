@@ -38,11 +38,12 @@ img {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-template-rows: repeat(1, 400px);
+    background-color: hsl(244, 38%, 16%);
     
 }
 
 .card-content {
-    background-color: hsl(244, 38%, 16%);
+    margin: 5rem;
 }
 
 .stats {
@@ -51,8 +52,8 @@ grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     flex-wrap: wrap;
     justify-content: center;
 }
-.stats > .div {
-    margin: 5rem;
+.div {
+    border: 5rem;
 }
 
 .attribution { font-size: 11px; text-align: center; }
